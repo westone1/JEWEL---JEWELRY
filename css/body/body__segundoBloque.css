@@ -1,0 +1,60 @@
+.mainbody__segundoBloque{
+    padding: 3rem 15rem 3rem 5rem;
+    background-color: black;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.mainbody__segundoBloque>img{
+    margin-right: 150px;
+}
+.mainbody__segundoBloque__contentBox__infoBox{
+    margin-bottom: 100px;
+}
+.mainbody__segundoBloque__contentBox__infoBox>h2{
+    font-size: 65px;
+    margin-bottom: 35px;
+    color: white;
+}
+.mainbody__segundoBloque__contentBox__infoBox>p{
+    color: white;
+    margin-bottom: 50px;
+}
+.mainbody__segundoBloque__contentBox__infoBox__priceBox{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.mainbody__segundoBloque__contentBox__infoBox__priceBox>button{
+    padding: 1rem;
+    background-color: white;
+    width: 180px;
+    font-size: 16px;
+    cursor: pointer;
+    border: solid black 1px;
+}
+.mainbody__segundoBloque__contentBox__infoBox__priceBox>button:hover{
+    background-color: black;
+    color:white;
+    border-color: white;
+}
+.mainbody__segundoBloque__contentBox__infoBox__priceBox>p{
+    color: white;
+    font-size: 30px;
+}
+.mainbody__segundoBloque__contentBox__nosotrosBox{
+    display: flex;
+    align-items: center;
+}
+.mainbody__segundoBloque__contentBox__nosotrosBox> .mainbody__segundoBloque__contentBox__nosotrosBox__infoBox{
+    margin-left: 25px;
+}
+.mainbody__segundoBloque__contentBox__nosotrosBox__infoBox>h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: white;
+}
+.mainbody__segundoBloque__contentBox__nosotrosBox__infoBox>p{
+    color: white;
+}

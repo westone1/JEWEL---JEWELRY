@@ -1,0 +1,73 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    height: 100px;
+    width: 100%;
+}
+.header__logoBox{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+} 
+.header__logoBox>img{
+    width: 50px;
+    cursor: pointer;
+}
+.header__logoBox>h1{
+    color: black;
+    font-weight: normal;
+    color: white;
+    cursor: pointer;
+}
+.header__menu{
+    margin-left: 450px;
+}
+.header__menu>ul{
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    cursor: pointer;
+    color: white;
+    
+}
+.header__menu>ul:hover{
+    text-decoration:underline;
+    text-underline-offset: 8px;
+}
+.header__buttons{
+    display: flex;
+    gap: 30px;
+}
+.header__buttons__loginButton{
+    width: 85px;
+    padding: 0.5rem;
+    height: 35px;
+    color: white;
+    background-color: black;
+    border: solid white 1px;
+    cursor:pointer
+}
+.header__buttons__loginButton:hover{
+    color: black;
+    background-color: white;
+    border: solid black 1px;
+}
+.header__buttons__getStartedButton{
+    width: 100px;
+    padding: 0.5rem;
+    height: 35px;
+    color: black;
+    background-color: white;
+    border: solid black 1px;
+    cursor:pointer
+}
+.header__buttons__getStartedButton:hover{
+    color: white;
+    background-color: black;
+    border: solid white 1px;
+}

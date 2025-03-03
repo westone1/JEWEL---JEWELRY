@@ -1,0 +1,34 @@
+.mainbody__quintoBloque{
+    padding: 3rem 5rem 3rem 5rem;
+    background-color: black;
+    display: flex;
+    gap: 10%;
+}
+.mainbody__quintoBloque__infoBox{
+    margin-bottom: 100px;
+}
+.mainbody__quintoBloque>img{
+    margin-right: 250px;
+}
+.mainbody__quintoBloque__infoBox>h2{
+    font-size: 65px;
+    margin-bottom: 35px;
+    color: white;
+}
+.mainbody__quintoBloque__infoBox>p{
+    color: white;
+    margin-bottom: 50px;
+}
+.mainbody__quintoBloque__infoBox>button{
+    padding: 1rem;
+    background-color: white;
+    width: 180px;
+    font-size: 16px;
+    cursor: pointer;
+    border: solid black 1px;
+}
+.mainbody__quintoBloque__infoBox>button:hover{
+    background-color: black;
+    color:white;
+    border-color: white;
+}
